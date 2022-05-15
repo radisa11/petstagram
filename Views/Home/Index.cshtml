@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model User
+<h1 class="text-center jumbotron">Petstagram</h1>
+<div class="container">
+    <div class="text-center row">
+        <div class="col-6">
+            <h1>Register User</h1>
+            <partial name="_Register.cshtml" />
+        </div>
+        <div class="col-6">
+            <h1>Login</h1>
+            <partial name="_Login.cshtml" />
+        </div>
+    </div>
+</div>
